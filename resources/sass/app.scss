@@ -1,3 +1,10 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.postcss-test {
+    transform: translate3d(10px, 0, 0) scale(1.2);
+    display: block;
+    background-color: rgba(#000, 0.5);
+    backdrop-filter: blur(20px);
+}

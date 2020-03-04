@@ -14,7 +14,7 @@
         <div class="container mx-auto">
             <h2 class="mb-3">This is using grid -- default of tailwind</h2>
             <div class="grid grid-cols-3">
-                <div class="text-red">This is red</div>
+                <div class="text-primary">This is red</div>
                 <div class="text-red">This is red</div>
                 <div class="text-red-100">This is red</div>
                 <div class="text-red-200">This is red</div>
@@ -31,6 +31,12 @@
                 <div class="w-1/3">This is a 3rd of width</div>
                 <div class="w-1/3">This is a 3rd of width</div>
                 <div class="w-1/3">This is a 3rd of width</div>
+            </div>
+        </div>
+
+        <div class="container mx-auto text-center">
+            <div class="postcss-test">
+                HELLOWS
             </div>
         </div>
     </body>
